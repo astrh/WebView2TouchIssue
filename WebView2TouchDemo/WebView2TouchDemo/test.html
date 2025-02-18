@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>WebView2 Touch Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .test-area {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+        }
+
+        input {
+            padding: 8px;
+            margin: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>WebView2 Touch/Mouse Test Page</h1>
+
+    <div class="test-area">
+        <h2>Test Form</h2>
+        <input type="text" placeholder="Click to type here..." />
+        <button onclick="alert('Button clicked!')">Test Button</button>
+    </div>
+
+    <div class="test-area">
+        <h2>Click Counter</h2>
+        <p>Clicks: <span id="clickCount">0</span></p>
+        <button onclick="incrementCounter()">Increment Counter</button>
+    </div>
+
+    <script>
+        let count = 0;
+        function incrementCounter() {
+            count++;
+            document.getElementById('clickCount').textContent = count;
+        }
+    </script>
+</body>
+</html>
