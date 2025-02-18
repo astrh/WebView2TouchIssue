@@ -1,7 +1,7 @@
 # WebView2TouchIssue
-In Visual Studio, created with the template "Blank App, Packaged with Windows Application Packaging Project (WinUI 3 in Desktop)"
+Created with the template "Blank App, Packaged with Windows Application Packaging Project (WinUI 3 in Desktop)"
 
-Set startup project as WebView2TouchDemo (Package) and run.
+In Visual Studio, set startup project as WebView2TouchDemo (Package) and run.
 
 1. Start by typing in the form or click using the mouse
 2. Click the "Test Touch" button
