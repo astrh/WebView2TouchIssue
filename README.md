@@ -3,3 +3,6 @@ In Visual Studio, created with the template "Blank App, Packaged with Windows Ap
 
 Set startup project as WebView2TouchDemo (Package) and run.
 
+1. Start by typing in the form or click using the mouse
+2. Click the "Test Touch" button
+3. Try clicking the elements using mouse 
